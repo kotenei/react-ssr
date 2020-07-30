@@ -1,0 +1,39 @@
+.app-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &-item {
+        width:280px;
+        text-align: center;
+
+        &__info {
+
+            h3 {
+                margin-top: 0;
+                font-weight: 100;
+            }
+        }
+
+        img{
+            cursor: pointer;
+        }
+
+        &__name {
+            color:#3C948B;
+            cursor: pointer;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            &:hover{
+                text-decoration: underline;
+            }
+            font-size: 20px;
+        }
+    }
+}
