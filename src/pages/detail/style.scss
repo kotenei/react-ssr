@@ -1,0 +1,23 @@
+.app-detail {
+    display: flex;
+    &__img{
+        margin-right: 20px;
+    }
+
+    &__name{
+        font-size: 35px;
+        font-weight: 100;
+        margin-top: -3px;
+        margin-bottom: 20px;
+    }
+
+    &__content{
+        line-height: 25px;
+        width: 700px;
+    }
+
+    &__source{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
